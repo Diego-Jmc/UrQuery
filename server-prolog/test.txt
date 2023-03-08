@@ -1,0 +1,5 @@
+let uri = varname in
+<ul>
+for $li in doc(uri)/li
+return <li>{$li}</li>
+</ul>

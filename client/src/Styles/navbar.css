@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,600;1,600&family=Oswald:wght@200&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,700&family=Roboto:ital,wght@0,300;0,700;0,900;1,400;1,700&family=Silkscreen:wght@400;700&display=swap');
+
+
+:root{
+    --primary:#000;
+    --secondary:#fff;
+    --third:#F7F5F2;
+}
+
+.logo_header{
+    font-family: 'Silkscreen', cursive;
+    font-size: 2rem;
+}
+
+.about_tag{
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 2px solid var(--primary);
+    padding: 0.6rem 1.8rem;
+    border-radius: 20px;
+    font-size: 0.8em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.about_tag:hover{
+    color: var(--primary);
+    background-color: var(--secondary);
+
+}
+
+.nav_container{
+    width: 100%;
+    display: flex;
+    min-width: 1600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 2px -2px gray;
+    background-color: var(--third);
+}

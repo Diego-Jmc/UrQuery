@@ -1,0 +1,28 @@
+.search-script-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search-script-button{
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: .8rem 1rem;
+    background-color: #FEBE8C;
+    border: 1px solid #FF7000;
+    color: #FF7000;
+    font-size: 1.2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.search-script-input{
+
+    outline: none;
+    font-size: 1em;
+
+}
+
+.ws-err{
+    border: 1px solid red;
+}

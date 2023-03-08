@@ -1,0 +1,65 @@
+
+.container{
+    width: 90%;
+    max-width: 1600px;
+    min-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+:root{
+    --primary:#000;
+    --secondary:#fff;
+    --third:#F7F5F2;
+}
+
+
+.text_editing{
+
+    width: 100%;
+    background-color: var(--third);
+    padding: 2rem;
+
+}
+
+.documents{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.warning-msg{
+    background-color: #FCE700;
+    color: #B73E3E;
+    width: 30%;
+    border: 1px solid #B73E3E;
+}
+
+.clear-btn{
+    border: none;
+    cursor: pointer;
+    padding: .8rem 2rem;
+    margin: 1rem 0;
+    background-color: #DEF5E5;
+    color: #4FA095;
+    border: 1px solid #4FA095;
+    font-weight: 700;
+}
+
+.save-btn{
+    background-color: #5DA7DB;
+    border: 2px solid #0008C1;
+    color: #0008C1;
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.search-bars{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
